@@ -1,0 +1,1 @@
+{"name":"Local: permutationsofstring","url":"e:\\Codes\\C++\\Practice\\Codequotient\\permutationsofstring.cpp","tests":[{"id":1620194684071,"input":"ABC\nB\n1","output":"ACB\nBAC\nBCA\nCAB"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Codes\\C++\\Practice\\Codequotient\\permutationsofstring.cpp","group":"local","local":true}
