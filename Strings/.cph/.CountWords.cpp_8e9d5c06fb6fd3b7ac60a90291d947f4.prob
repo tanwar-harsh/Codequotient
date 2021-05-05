@@ -1,0 +1,1 @@
+{"name":"Local: CountWords","url":"e:\\Codes\\C++\\Practice\\Codequotient\\Strings\\CountWords.cpp","tests":[{"id":1620192756505,"input":"Codequotient get better  at coding","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Codes\\C++\\Practice\\Codequotient\\Strings\\CountWords.cpp","group":"local","local":true}
