@@ -1,0 +1,1 @@
+{"name":"Local: stringrotations","url":"e:\\Codes\\C++\\Practice\\Codequotient\\Strings\\stringrotations.cpp","tests":[{"id":1620194459934,"input":"2\nabacd\nacdab\ncoder\ncored","output":"YES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"e:\\Codes\\C++\\Practice\\Codequotient\\Strings\\stringrotations.cpp","group":"local","local":true}
