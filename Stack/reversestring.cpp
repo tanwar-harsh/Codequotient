@@ -10,11 +10,7 @@ void reverse(string &s)
         st.push(ch);
     }
 
-    for (int i = 0; i < s.length(); i++)
-    {
-        s[i] = st.top();
-        st.pop();
-    }
+    
 }
 
 int main()
