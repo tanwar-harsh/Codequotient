@@ -4,6 +4,8 @@
         "iostream": "cpp",
         "cmath": "cpp",
         "iomanip": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "sstream": "cpp",
+        "regex": "cpp"
     }
 }

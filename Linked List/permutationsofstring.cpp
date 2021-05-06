@@ -9,12 +9,11 @@ struct Node
 
 void forwardPrint(struct Node *head)
 {
-    if (head == NULL)
+    while (head != NULL)
     {
-        return;
+        printf("%d-", head->data);
+        head = head->next;
     }
-    cout << head->data;
-    forwardPrint(head->next);
 }
 
 void backwardPrint(struct Node *head)
@@ -24,7 +23,18 @@ void backwardPrint(struct Node *head)
         return;
     }
     backwardPrint(head->next);
-    cout << head->data;
+    printf("%d-", head->data);
+}
+
+void push(Node **head_ref, char new_data)
+{
+    Node *new_node = new Node();
+
+    new_node->data = new_data;
+
+    new_node->next = (*head_ref);
+
+    (*head_ref) = new_node;
 }
 
 int main()
@@ -38,8 +48,9 @@ int main()
         while (n--)
         {
             cin >> m;
-            insertEnd(&head, m);
+            push(&head, m);
         }
+
         forwardPrint(head);
         cout << endl;
         backwardPrint(head);
